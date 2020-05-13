@@ -1,0 +1,13 @@
+BODY {
+background: white; 
+}
+TABLE {
+border-collapse: collapse; 
+border: 2px; solid; 
+}
+TD, TH {
+padding: 3px; 
+border: 1px solid black; 
+text-align: left; 
+empty-cells: show; 
+}
