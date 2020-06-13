@@ -6,10 +6,11 @@
     'use strict';
 
 let price_edged = 260;
-  let price_unedged = 100;
+let price_unedged = 100;
   
   function arrayMulti() {
-  for (let i = 0; i < board.length; i++) {
+  let numbers = []
+  for (let i = 0; i < numbers.length; i++) {
   
   if document.getElementsByClassName("classEdged") {
   let result_edged = [i] * let price_edged 
