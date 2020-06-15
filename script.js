@@ -1,8 +1,8 @@
   
   function arrayMulti() {
     let board = {
-         price_edged = 260;
-         price_unedged = 100;
+         price_edged : 260,
+         price_unedged : 100
       };
     
     let numbers = [];
