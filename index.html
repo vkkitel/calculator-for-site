@@ -1,85 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head> 
-    <meta charset="utf-8"> 
-    <title>Считаем цену</title >
-    <link rel="stylesheet" href="style.css"> 
-  </head> 
-  <body> 
-    <script src="js/script.js"></script>      
-  
-  <table>
-  
-    <caption>
-    Расчёт стоимости пиломатериала
-    </caption>
-    
-    <tr>
-       <th>
-       Название товара/услуги
-       </th>
-       <th>
-       Цена за 1 м3
-       </th>
-       <th>
-       Количество кубов
-       </th>
-       <th>
-       Стоимость
-       </th>
-    </tr>   
-   
-    <tr>
-      <td>
-      Доска обрезная
-      </td>
-      <td>
-      260 руб.
-      </td>
-      <td>
-      <input class="classEdged" type="text" id="edgedBoard" onchange="arrayMulti()">
-      </td>
-      <td>
-      <span id="result_edged"></span> 
-      </td>
-    </tr>
-    <tr>  
-    
-      <td>
-      Доска необрезная
-      </td>
-      <td>
-      100 руб.
-      </td>
-      <td>
-      <input class="classUnedged" type="text" id="unedgedBoard" onchange="arrayMulti()">
-      </td>
-      <td>
-      <span id="result_unedged"></span> 
-      </td>
-    </tr>
-      <td>
-      Балки
-      </td>
-      <td>
-       260 руб.
-      </td>
-      <td>
-      <input class="classEdged" type="text" id="edgedBoard" onchange="arrayMulti()">
-      </td>
-      <td>
-      <span id="result_edged"></span> 
-      </td>
-    <tr> 
-      <td colspan="3" style="text-align:right">
-      Итого:
-      </td>
-      <td>
-        <span id="total"></span> 
-        руб
-      </td>
-    </tr>
+  <head>
+    <meta charset="utf-8" />
+    <title>Считаем цену</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
 
-  </table>
+    <table>
+      <caption>
+        Расчёт стоимости пиломатериала
+      </caption>
+
+      <tr>
+        <th>
+          Название товара/услуги
+        </th>
+        <th>
+          Цена за 1 м3
+        </th>
+        <th>
+          Количество кубов
+        </th>
+        <th>
+          Стоимость
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          Доска обрезная
+        </td>
+        <td>
+          260 руб.
+        </td>
+        <td>
+          <input
+            class="classEdged"
+            type="text"
+            id="edgedBoard"
+            onchange="arrayMulti();"
+          />
+        </td>
+        <td>
+          <span id="result_edged"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Доска необрезная
+        </td>
+        <td>
+          100 руб.
+        </td>
+        <td>
+          <input
+            class="classUnedged"
+            type="text"
+            id="unedgedBoard"
+            onchange="arrayMulti();"
+          />
+        </td>
+        <td>
+          <span id="result_unedged"></span>
+        </td>
+      </tr>
+      <td>
+        Балки
+      </td>
+      <td>
+        260 руб.
+      </td>
+      <td>
+        <input
+          class="classEdged"
+          type="text"
+          id="edgedBoard"
+          onchange="arrayMulti(;)"
+        />
+      </td>
+      <td>
+        <span id="result_edged"></span>
+      </td>
+      <tr>
+        <td colspan="3" style="text-align: right;">
+          Итого:
+        </td>
+        <td>
+          <span id="total"></span>
+          руб
+        </td>
+      </tr>
+    </table>
   </body>
-</html>      
+</html>
